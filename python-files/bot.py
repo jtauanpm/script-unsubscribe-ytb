@@ -3,7 +3,7 @@ import pyperclip
 import time
 
 # Altere aqui caso o bot esteja muito rápido em relação ao carregamento das páginas no browser 
-wait = 5
+wait = 3
 
 # Mude aqui a quantidade de repetições (quanto canais para unsubscribe)
 qnt_repet = 2
