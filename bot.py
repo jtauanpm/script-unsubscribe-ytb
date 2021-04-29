@@ -2,7 +2,7 @@ import pyautogui
 import pyperclip
 import time
 
-# Altere aqui caso o bot esteja muito rápido em relação ao carregamento das páginas no broswer 
+# Altere aqui caso o bot esteja muito rápido em relação ao carregamento das páginas no browser 
 wait = 5
 
 pyautogui.PAUSE = 1
@@ -23,11 +23,14 @@ time.sleep(wait)
 # Ir em inscrições
 pyautogui.click(110,264)
 time.sleep(wait)
+
+# Clicar em Gerenciar
 pyautogui.click(1195,192)
 time.sleep(wait)
 
-# Cancelar inscrição
+# Clicar em Inscrito
 pyautogui.click(1238,243)
+#Clicar em Cancelar inscrição
 pyautogui.click(748,452)
 
 # Atualizar página
