@@ -1,6 +1,5 @@
 # Bot para cancelar inscrição em canais do youtube
-
-**Para a implementação do código foram usadas as bibliotecas time, pyautogui e pyperclip do Python (A instalação delas é necessária).**
+Para a implementação do código foram usadas as bibliotecas time, pyautogui e pyperclip do Python (A instalação delas é necessária).
 ---
 ## Aqui está um Gif demonstrando a sua execução (sem repetição).
 ![Gif Bot](https://github.com/jonathan-maia/bot-unsubscribe-ytb/blob/main/gif.gif)
@@ -17,6 +16,8 @@
 3. procure a aba inscrições
 4. Haverá um texto (Mostrar mais X)
 5. Pegue esse número X e mude no laço (for)
+
+![Quantidade de repetições](https://github.com/jonathan-maia/bot-unsubscribe-ytb/blob/main/gif.gif)
 
 **Tempo de carregamento :** Caso o bot esteja mais rápido que o carregamento do seu browser, aumente a variável (wait) para um número maior que especificará a quantidade de segundos que sera esperado quando o comando (time.sleep(wait)) for chamado.
 
