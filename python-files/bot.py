@@ -6,7 +6,7 @@ import time
 wait = 3
 
 # Mude aqui a quantidade de repetições (quanto canais para unsubscribe)
-qnt_repet = 2
+qnt_repet = 180
 
 pyautogui.PAUSE = 1
 pyautogui.alert("A execução vai começar, não mexa em nada !")
