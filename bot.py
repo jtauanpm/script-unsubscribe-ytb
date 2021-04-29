@@ -3,9 +3,9 @@ import pyperclip
 import time
 
 # Altere aqui caso o bot esteja muito rápido em relação ao carregamento das páginas no broswer 
-wait = 3
+wait = 5
 
-pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 1
 pyautogui.alert("A execução vai começar, não mexa em nada !")
 
 # Abrir navegador
