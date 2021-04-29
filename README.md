@@ -4,7 +4,7 @@ Para a implementação do código foram usadas as bibliotecas time, pyautogui e 
 ---
 
 ## Aqui está um Gif demonstrando a sua execução (sem repetição).
-![Gif Bot](https://github.com/jonathan-maia/bot-unsubscribe-ytb/blob/main/images/gif.gif)
+![Gif Bot](https://github.com/jonathan-maia/bot-unsubscribe-ytb/blob/main/images/gif%20bot.gif)
 
 ---
 
@@ -17,6 +17,8 @@ Para a implementação do código foram usadas as bibliotecas time, pyautogui e 
 3. após 7 segundos, será retornado o valor de X e Y onde o mouse estava localizado
 4. Para mudar a posição do click, modifique `pyautogui.click(x,y)` x e y para o valor informado no seu programa
 5. Repira esse processo para cada método `pyautogui.click(x,y)`.
+
+![Gif Position](https://github.com/jonathan-maia/bot-unsubscribe-ytb/blob/main/images/gif%20position.gif)
 
 **Quantidade de repetições :** Para saber quantas vezes é necessária a repitição do bloco de comando para dar unsubscribe em todos os canais: 
 1. Entre no seu youtube 
