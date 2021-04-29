@@ -18,7 +18,7 @@ Para a implementação do código foram usadas as bibliotecas time, pyautogui e 
 2. clique nos tracinhos no canto superior esquerdo
 3. procure a aba inscrições
 4. Haverá um texto (Mostrar mais X)
-5. Pegue esse número X e mude no laço (for)
+5. Pegue esse número X e mude a variável `qnt_repet = x` 
 
 ![Quantidade de repetições](https://github.com/jonathan-maia/bot-unsubscribe-ytb/blob/main/images/quantidade-repet.jpg)
 

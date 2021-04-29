@@ -5,6 +5,9 @@ import time
 # Altere aqui caso o bot esteja muito rápido em relação ao carregamento das páginas no browser 
 wait = 5
 
+# Mude aqui a quantidade de repetições (quanto canais para unsubscribe)
+qnt_repet = 2
+
 pyautogui.PAUSE = 1
 pyautogui.alert("A execução vai começar, não mexa em nada !")
 
@@ -28,11 +31,12 @@ time.sleep(wait)
 pyautogui.click(1195,192)
 time.sleep(wait)
 
-# Clicar em Inscrito
-pyautogui.click(1238,243)
-#Clicar em Cancelar inscrição
-pyautogui.click(748,452)
+for i in range(0,qnt_repet,1):
+    # Clicar em Inscrito
+    pyautogui.click(1238,243)
+    #Clicar em Cancelar inscrição
+    pyautogui.click(748,452)
 
-# Atualizar página
-pyautogui.press("f5")
-time.sleep(wait)
+    # Atualizar página
+    pyautogui.press("f5")
+    time.sleep(wait)
