@@ -40,3 +40,5 @@ for i in range(0,qnt_repet,1):
     # Atualizar página
     pyautogui.press("f5")
     time.sleep(wait)
+
+pyautogui.alert("A execução terminou !")
