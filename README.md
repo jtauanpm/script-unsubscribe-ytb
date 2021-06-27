@@ -1,4 +1,4 @@
-# Bot para cancelar inscrição em canais do youtube
+# Script para cancelar inscrição em canais do youtube
 Para a implementação do código foram usadas as bibliotecas time, pyautogui e pyperclip do Python (A instalação delas é necessária).
 
 ---
